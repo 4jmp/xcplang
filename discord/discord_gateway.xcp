@@ -1,0 +1,30 @@
+fn ping_text(ping) {
+  return "🏓 Pong!\nPing: " + ping + "ms"
+}
+
+fn dispatch_message() {
+  let token = run_bash("printf '%s' \"$XCP_DISCORD_TOKEN\"")
+  let command = run_bash("printf '%s' \"$XCP_DISCORD_COMMAND\"")
+  let channel = run_bash("printf '%s' \"$XCP_DISCORD_CHANNEL\"")
+  let message_id = run_bash("printf '%s' \"$XCP_DISCORD_MESSAGE_ID\"")
+  let ping = run_bash("printf '%s' \"$XCP_DISCORD_PING\"")
+  let prefix = run_bash("printf '%s' \"$XCP_DISCORD_PREFIX\"")
+  if ((prefix == "" || starts_with(command, prefix)) && command == "!ping") {
+    discord_message_reply(token, channel, message_id, ping_text(ping))
+  }
+}
+
+fn dispatch_slash() {
+  let token = run_bash("printf '%s' \"$XCP_DISCORD_TOKEN\"")
+  let command = run_bash("printf '%s' \"$XCP_DISCORD_COMMAND\"")
+  let interaction_id = run_bash("printf '%s' \"$XCP_DISCORD_INTERACTION_ID\"")
+  let interaction_token = run_bash("printf '%s' \"$XCP_DISCORD_INTERACTION_TOKEN\"")
+  let ping = run_bash("printf '%s' \"$XCP_DISCORD_PING\"")
+  if (command == "/ping") {
+    discord_interaction_reply(token, interaction_id, interaction_token, ping_text(ping))
+  }
+}
+
+let event_type = run_bash("printf '%s' \"$XCP_DISCORD_EVENT\"")
+if (event_type == "message") { dispatch_message() }
+if (event_type == "slash") { dispatch_slash() }

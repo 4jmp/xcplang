@@ -1,0 +1,1 @@
+fn square(value) { return value * value }

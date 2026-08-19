@@ -1,0 +1,8 @@
+var total = 0
+var i = 0
+while (i < 5) { total = total + i; i = i + 1 }
+fn add(a, b) { return a + b }
+if (total == 10) { print(add(total, 2)) }
+var names = ["ana", "bo"]
+push(names, "cy")
+print(len(names), pop(names), names[0])

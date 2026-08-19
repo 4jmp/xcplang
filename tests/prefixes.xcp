@@ -1,0 +1,3 @@
+var message = "lol ubuntu"
+if (starts_with(message, "lol")) { print("lol prefix ok") }
+if (starts_with(message, "")) { print("empty prefix ok") }

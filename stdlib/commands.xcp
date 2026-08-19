@@ -1,0 +1,400 @@
+fn system_pwd_now() { return run_bash("pwd") }
+
+fn system_pwd_show() { return run_bash("pwd") }
+
+fn system_pwd_list() { return run_bash("pwd") }
+
+fn system_pwd_check() { return run_bash("pwd") }
+
+fn system_pwd_scan() { return run_bash("pwd") }
+
+fn system_pwd_read() { return run_bash("pwd") }
+
+fn system_pwd_view() { return run_bash("pwd") }
+
+fn system_pwd_info() { return run_bash("pwd") }
+
+fn system_pwd_print() { return run_bash("pwd") }
+
+fn system_pwd_report() { return run_bash("pwd") }
+
+fn system_user_now() { return run_bash("whoami") }
+
+fn system_user_show() { return run_bash("whoami") }
+
+fn system_user_list() { return run_bash("whoami") }
+
+fn system_user_check() { return run_bash("whoami") }
+
+fn system_user_scan() { return run_bash("whoami") }
+
+fn system_user_read() { return run_bash("whoami") }
+
+fn system_user_view() { return run_bash("whoami") }
+
+fn system_user_info() { return run_bash("whoami") }
+
+fn system_user_print() { return run_bash("whoami") }
+
+fn system_user_report() { return run_bash("whoami") }
+
+fn system_host_now() { return run_bash("hostname") }
+
+fn system_host_show() { return run_bash("hostname") }
+
+fn system_host_list() { return run_bash("hostname") }
+
+fn system_host_check() { return run_bash("hostname") }
+
+fn system_host_scan() { return run_bash("hostname") }
+
+fn system_host_read() { return run_bash("hostname") }
+
+fn system_host_view() { return run_bash("hostname") }
+
+fn system_host_info() { return run_bash("hostname") }
+
+fn system_host_print() { return run_bash("hostname") }
+
+fn system_host_report() { return run_bash("hostname") }
+
+fn system_date_now() { return run_bash("date -u") }
+
+fn system_date_show() { return run_bash("date -u") }
+
+fn system_date_list() { return run_bash("date -u") }
+
+fn system_date_check() { return run_bash("date -u") }
+
+fn system_date_scan() { return run_bash("date -u") }
+
+fn system_date_read() { return run_bash("date -u") }
+
+fn system_date_view() { return run_bash("date -u") }
+
+fn system_date_info() { return run_bash("date -u") }
+
+fn system_date_print() { return run_bash("date -u") }
+
+fn system_date_report() { return run_bash("date -u") }
+
+fn system_uname_now() { return run_bash("uname -a") }
+
+fn system_uname_show() { return run_bash("uname -a") }
+
+fn system_uname_list() { return run_bash("uname -a") }
+
+fn system_uname_check() { return run_bash("uname -a") }
+
+fn system_uname_scan() { return run_bash("uname -a") }
+
+fn system_uname_read() { return run_bash("uname -a") }
+
+fn system_uname_view() { return run_bash("uname -a") }
+
+fn system_uname_info() { return run_bash("uname -a") }
+
+fn system_uname_print() { return run_bash("uname -a") }
+
+fn system_uname_report() { return run_bash("uname -a") }
+
+fn system_id_now() { return run_bash("id") }
+
+fn system_id_show() { return run_bash("id") }
+
+fn system_id_list() { return run_bash("id") }
+
+fn system_id_check() { return run_bash("id") }
+
+fn system_id_scan() { return run_bash("id") }
+
+fn system_id_read() { return run_bash("id") }
+
+fn system_id_view() { return run_bash("id") }
+
+fn system_id_info() { return run_bash("id") }
+
+fn system_id_print() { return run_bash("id") }
+
+fn system_id_report() { return run_bash("id") }
+
+fn system_uptime_now() { return run_bash("uptime") }
+
+fn system_uptime_show() { return run_bash("uptime") }
+
+fn system_uptime_list() { return run_bash("uptime") }
+
+fn system_uptime_check() { return run_bash("uptime") }
+
+fn system_uptime_scan() { return run_bash("uptime") }
+
+fn system_uptime_read() { return run_bash("uptime") }
+
+fn system_uptime_view() { return run_bash("uptime") }
+
+fn system_uptime_info() { return run_bash("uptime") }
+
+fn system_uptime_print() { return run_bash("uptime") }
+
+fn system_uptime_report() { return run_bash("uptime") }
+
+fn system_shell_now() { return run_bash("printf $SHELL") }
+
+fn system_shell_show() { return run_bash("printf $SHELL") }
+
+fn system_shell_list() { return run_bash("printf $SHELL") }
+
+fn system_shell_check() { return run_bash("printf $SHELL") }
+
+fn system_shell_scan() { return run_bash("printf $SHELL") }
+
+fn system_shell_read() { return run_bash("printf $SHELL") }
+
+fn system_shell_view() { return run_bash("printf $SHELL") }
+
+fn system_shell_info() { return run_bash("printf $SHELL") }
+
+fn system_shell_print() { return run_bash("printf $SHELL") }
+
+fn system_shell_report() { return run_bash("printf $SHELL") }
+
+fn system_path_now() { return run_bash("printf $PATH") }
+
+fn system_path_show() { return run_bash("printf $PATH") }
+
+fn system_path_list() { return run_bash("printf $PATH") }
+
+fn system_path_check() { return run_bash("printf $PATH") }
+
+fn system_path_scan() { return run_bash("printf $PATH") }
+
+fn system_path_read() { return run_bash("printf $PATH") }
+
+fn system_path_view() { return run_bash("printf $PATH") }
+
+fn system_path_info() { return run_bash("printf $PATH") }
+
+fn system_path_print() { return run_bash("printf $PATH") }
+
+fn system_path_report() { return run_bash("printf $PATH") }
+
+fn system_home_now() { return run_bash("printf $HOME") }
+
+fn system_home_show() { return run_bash("printf $HOME") }
+
+fn system_home_list() { return run_bash("printf $HOME") }
+
+fn system_home_check() { return run_bash("printf $HOME") }
+
+fn system_home_scan() { return run_bash("printf $HOME") }
+
+fn system_home_read() { return run_bash("printf $HOME") }
+
+fn system_home_view() { return run_bash("printf $HOME") }
+
+fn system_home_info() { return run_bash("printf $HOME") }
+
+fn system_home_print() { return run_bash("printf $HOME") }
+
+fn system_home_report() { return run_bash("printf $HOME") }
+
+fn file_list_now() { return run_bash("ls -la") }
+
+fn file_list_show() { return run_bash("ls -la") }
+
+fn file_list_list() { return run_bash("ls -la") }
+
+fn file_list_check() { return run_bash("ls -la") }
+
+fn file_list_scan() { return run_bash("ls -la") }
+
+fn file_list_read() { return run_bash("ls -la") }
+
+fn file_list_view() { return run_bash("ls -la") }
+
+fn file_list_info() { return run_bash("ls -la") }
+
+fn file_list_print() { return run_bash("ls -la") }
+
+fn file_list_report() { return run_bash("ls -la") }
+
+fn file_xcp_now() { return run_bash("file xcp") }
+
+fn file_xcp_show() { return run_bash("file xcp") }
+
+fn file_xcp_list() { return run_bash("file xcp") }
+
+fn file_xcp_check() { return run_bash("file xcp") }
+
+fn file_xcp_scan() { return run_bash("file xcp") }
+
+fn file_xcp_read() { return run_bash("file xcp") }
+
+fn file_xcp_view() { return run_bash("file xcp") }
+
+fn file_xcp_info() { return run_bash("file xcp") }
+
+fn file_xcp_print() { return run_bash("file xcp") }
+
+fn file_xcp_report() { return run_bash("file xcp") }
+
+fn file_size_now() { return run_bash("du -sh .") }
+
+fn file_size_show() { return run_bash("du -sh .") }
+
+fn file_size_list() { return run_bash("du -sh .") }
+
+fn file_size_check() { return run_bash("du -sh .") }
+
+fn file_size_scan() { return run_bash("du -sh .") }
+
+fn file_size_read() { return run_bash("du -sh .") }
+
+fn file_size_view() { return run_bash("du -sh .") }
+
+fn file_size_info() { return run_bash("du -sh .") }
+
+fn file_size_print() { return run_bash("du -sh .") }
+
+fn file_size_report() { return run_bash("du -sh .") }
+
+fn file_space_now() { return run_bash("df -h .") }
+
+fn file_space_show() { return run_bash("df -h .") }
+
+fn file_space_list() { return run_bash("df -h .") }
+
+fn file_space_check() { return run_bash("df -h .") }
+
+fn file_space_scan() { return run_bash("df -h .") }
+
+fn file_space_read() { return run_bash("df -h .") }
+
+fn file_space_view() { return run_bash("df -h .") }
+
+fn file_space_info() { return run_bash("df -h .") }
+
+fn file_space_print() { return run_bash("df -h .") }
+
+fn file_space_report() { return run_bash("df -h .") }
+
+fn file_xcp_sources_now() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_show() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_list() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_check() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_scan() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_read() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_view() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_info() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_print() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn file_xcp_sources_report() { return run_bash("find . -type f -name '*.xcp' -print") }
+
+fn build_make_now() { return run_bash("make -n") }
+
+fn build_make_show() { return run_bash("make -n") }
+
+fn build_make_list() { return run_bash("make -n") }
+
+fn build_make_check() { return run_bash("make -n") }
+
+fn build_make_scan() { return run_bash("make -n") }
+
+fn build_make_read() { return run_bash("make -n") }
+
+fn build_make_view() { return run_bash("make -n") }
+
+fn build_make_info() { return run_bash("make -n") }
+
+fn build_make_print() { return run_bash("make -n") }
+
+fn build_make_report() { return run_bash("make -n") }
+
+fn build_cargo_now() { return run_bash("cargo --version") }
+
+fn build_cargo_show() { return run_bash("cargo --version") }
+
+fn build_cargo_list() { return run_bash("cargo --version") }
+
+fn build_cargo_check() { return run_bash("cargo --version") }
+
+fn build_cargo_scan() { return run_bash("cargo --version") }
+
+fn build_cargo_read() { return run_bash("cargo --version") }
+
+fn build_cargo_view() { return run_bash("cargo --version") }
+
+fn build_cargo_info() { return run_bash("cargo --version") }
+
+fn build_cargo_print() { return run_bash("cargo --version") }
+
+fn build_cargo_report() { return run_bash("cargo --version") }
+
+fn build_rust_now() { return run_bash("rustc --version") }
+
+fn build_rust_show() { return run_bash("rustc --version") }
+
+fn build_rust_list() { return run_bash("rustc --version") }
+
+fn build_rust_check() { return run_bash("rustc --version") }
+
+fn build_rust_scan() { return run_bash("rustc --version") }
+
+fn build_rust_read() { return run_bash("rustc --version") }
+
+fn build_rust_view() { return run_bash("rustc --version") }
+
+fn build_rust_info() { return run_bash("rustc --version") }
+
+fn build_rust_print() { return run_bash("rustc --version") }
+
+fn build_rust_report() { return run_bash("rustc --version") }
+
+fn build_node_now() { return run_bash("node --version") }
+
+fn build_node_show() { return run_bash("node --version") }
+
+fn build_node_list() { return run_bash("node --version") }
+
+fn build_node_check() { return run_bash("node --version") }
+
+fn build_node_scan() { return run_bash("node --version") }
+
+fn build_node_read() { return run_bash("node --version") }
+
+fn build_node_view() { return run_bash("node --version") }
+
+fn build_node_info() { return run_bash("node --version") }
+
+fn build_node_print() { return run_bash("node --version") }
+
+fn build_node_report() { return run_bash("node --version") }
+
+fn build_git_now() { return run_bash("git --version") }
+
+fn build_git_show() { return run_bash("git --version") }
+
+fn build_git_list() { return run_bash("git --version") }
+
+fn build_git_check() { return run_bash("git --version") }
+
+fn build_git_scan() { return run_bash("git --version") }
+
+fn build_git_read() { return run_bash("git --version") }
+
+fn build_git_view() { return run_bash("git --version") }
+
+fn build_git_info() { return run_bash("git --version") }
+
+fn build_git_print() { return run_bash("git --version") }
+
+fn build_git_report() { return run_bash("git --version") }
+

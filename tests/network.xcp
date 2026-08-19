@@ -1,0 +1,1 @@
+print(run_bash("printf network-ok"))

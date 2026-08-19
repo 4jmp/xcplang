@@ -1,0 +1,2 @@
+import "tests/addon.xcp"
+print(square(6))
