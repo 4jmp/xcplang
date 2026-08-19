@@ -61,8 +61,6 @@ Read [docs/network.md](docs/network.md) before using network and shell functions
 - `rust/` contains the native FFI bridge.
 - `tests/` contains runnable language examples.
 - `docs/` contains the full user and developer guide.
-- `site/` contains the portal and documentation server.
-- `commit-1/` through `commit-15/` are learning snapshots.
 
 ## Development
 

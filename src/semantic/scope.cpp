@@ -1,3 +1,24 @@
 #include "xcp/semantic/scope.hpp"
 #include <stdexcept>
-namespace xcp::semantic { Scope::Scope(std::shared_ptr<Scope>p):parent_(std::move(p)){} void Scope::define(std::string n,vm::Value v){values_[std::move(n)]=std::move(v);} bool Scope::assign(const std::string&n,vm::Value v){auto i=values_.find(n);if(i!=values_.end()){i->second=std::move(v);return true;}return parent_&&parent_->assign(n,std::move(v));} vm::Value Scope::lookup(const std::string&n)const{auto i=values_.find(n);if(i!=values_.end())return i->second;if(parent_)return parent_->lookup(n);throw std::runtime_error("undefined name: "+n);} }
+namespace xcp::semantic {
+Scope::Scope(std::shared_ptr<Scope> p) : parent_(std::move(p)) {}
+void Scope::define(std::string n, vm::Value v) {
+  values_[std::move(n)] = std::move(v);
+}
+bool Scope::assign(const std::string &n, vm::Value v) {
+  auto i = values_.find(n);
+  if (i != values_.end()) {
+    i->second = std::move(v);
+    return true;
+  }
+  return parent_ && parent_->assign(n, std::move(v));
+}
+vm::Value Scope::lookup(const std::string &n) const {
+  auto i = values_.find(n);
+  if (i != values_.end())
+    return i->second;
+  if (parent_)
+    return parent_->lookup(n);
+  throw std::runtime_error("undefined name: " + n);
+}
+} // namespace xcp::semantic

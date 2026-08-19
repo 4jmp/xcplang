@@ -4,7 +4,7 @@ xcplang has small network helpers. They use the system `curl` command, so instal
 
 ## shell commands
 
-`run_bash(command)` starts a shell command and returns its output.
+`run_bash(command)` runs a shell command in a child process, waits for it, and returns its output. It does not open a terminal or leave a process running in the background. Destructive commands targeting `/` or `/boot` are blocked unless the file is run with `--allow-destructive` or `-d`.
 
 ```xcp
 print(run_bash("uname -s"))
