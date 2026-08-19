@@ -1,2 +1,0 @@
-let answer = 2 + 3 * 4
-print("answer:", answer)

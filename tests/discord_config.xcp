@@ -1,5 +1,0 @@
-fn reply_for(command, ping) {
-  if (command == "!ping") { return "🏓 Pong!\nPing: " + ping + "ms" }
-  return "✅ command received: " + command
-}
-print(reply_for("lol", "122"))

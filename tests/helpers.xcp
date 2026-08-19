@@ -1,3 +1,0 @@
-import "stdlib/commands.xcp"
-print(system_pwd_now())
-print(build_rust_check())
